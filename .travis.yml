@@ -5,4 +5,4 @@ osx_image:
   - xcode10.1
 
 script:
-  - xcodebuild test -project MeasuringCompileTimeExample.xcodeproj -scheme MeasuringCompileTimeExample -destination "platform=iOS Simulator,name=iPhone XS"
+  - xcodebuild build -project MeasuringCompileTimeExample.xcodeproj -scheme MeasuringCompileTimeExample -destination "platform=iOS Simulator,name=iPhone XS"
