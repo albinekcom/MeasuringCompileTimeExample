@@ -1,8 +1,11 @@
+language:
+  - swift
+
 os:
   - osx
 
 osx_image:
-  - xcode10.1
+  - xcode12.2
 
 script:
-  - xcodebuild build -project MeasuringCompileTimeExample.xcodeproj -scheme MeasuringCompileTimeExample -destination "platform=iOS Simulator,name=iPhone XS"
+  - xcodebuild build -project MeasuringCompileTimeExample.xcodeproj -scheme MeasuringCompileTimeExample -destination "platform=iOS Simulator,name=iPhone 12"
